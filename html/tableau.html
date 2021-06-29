@@ -1,0 +1,71 @@
+<!--Michael Saulls - last edited 6/28/2021-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <title>Michael Saulls - Tableau Example Page</title>
+        <link rel="stylesheet" href="../styles/bootstyles.css" type="text/css" />
+    </head>
+
+    <body>
+<!-- Header -->
+        <div class="pageselection common">
+            <a href="../index.html">Home Page</a>  |
+            <a href="about_me.html">About Me</a>  |
+            <a href="education.html">Education</a>  |
+            <a href="experience.html">Experience</a>  |
+            <a href="skills.html">Skills</a>  |
+            <a href="#">Tableau Example</a>
+        </div>
+<!-- Dashboard-->
+        <div class='tableauPlaceholder common mainbody' id='viz1624935673914' style='position: fixed'>
+            <noscript>
+                <a href='#'>
+                <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Final_Project_Dashboard_16249353750600&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='Final_Project_Dashboard_16249353750600&#47;Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;Final_Project_Dashboard_16249353750600&#47;Dashboard1&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1624935673914');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.maxWidth='100%'; // This is the secret sauce
+                vizElement.style.width='100%';
+                vizElement.style.minHeight='587px';
+                vizElement.style.maxHeight='887px';
+                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        <div class="comomon secondbody">
+            <br><br><br><br><br>
+            <p>Graph 1 (top left): Profits are highest in CA and lowest in TX.</p>
+            <p>Graph 2 (bottom left): California's forecast is positive, but there's not enough data to forecast any seasonal changes.</p>
+            <p>Graph 3 (top right): The technology category is the most profitable in New York.</p>
+            <p>Graph 4 (bottom right): These are the profits for the last few years in New York.</p>
+        </div>
+<!-- Footer -->
+        <div class="common copyright" style="text-align: center;">
+            <footer>Copyright &copy; Intro to Information Systems Management 2021</footer>
+        </div>
+    </body>
+</html>

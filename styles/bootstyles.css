@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+}
+
+.pageselection {
+    right: 5px;
+    left: 5px;
+    top: 5px;
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+a {
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 63, 63);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.common {
+    background-color: #CCCCCC;
+    border: solid 2px white;
+    position: fixed;
+}
+
+.mainbody { /* for some reason, I could not get this box to center 5 px */
+            /* from the left and right, even when I have it set that way. */
+    right: 5px;
+    left: 5px;
+    top: 80px;
+    padding-top: 5px;
+}
+
+.secondbody {
+    right: 5px;
+    left: 5px;
+    bottom: 75px;
+    height: 35px;
+}
+
+.copyright {
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+footer {
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 63, 63);
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555555;
+    text-align: justify;
+}
+
+h4 {
+    font-family:serif; font-size: 20pt; color: rgba(1, 45, 139, 0.726);
+}
+
+.wordemphasis {
+    color: red; font-weight: bolder;
+}
+
+.details {
+    font-size: 13pt; font-style: italic;
+}
+
+.header {
+    font-size: 28pt; color: seagreen;
+}
+
+body {
+    background-color: rgb(214, 209, 202);
+}
